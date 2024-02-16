@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+    padding: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    place-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: darkcyan;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: purple;
+    font-weight: bold;
+}
+
+a:visited {
+    color: whitesmoke;
+}
